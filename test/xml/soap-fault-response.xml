@@ -1,0 +1,14 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <soap:Fault>
+      <faultcode>soap:Server</faultcode>
+      <faultstring>ALREADY_IN_PROGRESS</faultstring>
+      <detail>
+        <ns2:RpFault xmlns:ns2="http://bankid.com/RpService/v4.0.0/types/">
+          <faultStatus>ALREADY_IN_PROGRESS</faultStatus>
+          <detailedDescription></detailedDescription>
+        </ns2:RpFault>
+      </detail>
+    </soap:Fault>
+  </soap:Body>
+</soap:Envelope>
